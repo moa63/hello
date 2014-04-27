@@ -1,3 +1,3 @@
 #! /usr/bin/env bash
 
-clang source/hello.c++ -lstdc++ -o hello
+clang -o hello source/hello.c++ -lstdc++
